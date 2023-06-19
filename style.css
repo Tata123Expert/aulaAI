@@ -1,19 +1,23 @@
-#start-btn
+body
 {
-    width: 40%;
+    color:rgb(231, 165, 32);
+    background-color:rgb(60, 121, 104);
+}  
+.heading
+{
+    width:40%;
+    font-size:40px;
+    background-color:rgb(231, 165, 32);
+    color:rgb(60, 121, 104);
+    border-radius:10px;
 } 
+.nameOfObjects, #resultObjectName, #resultObjectAccuracy
+{
+    font-size:25px;
+}
 #camera
 {
-    width:360px;
-    height: 250px;
-    border:1px solid grey;
-}
-#logo_img
-{
-    width: 150px;
-    border-radius: 100px;
-}
-#textbox
-{
-    width: 300px;
+    border:3px dashed rgb(231, 165, 32);
+    width:350px;
+    height:300;
 }
